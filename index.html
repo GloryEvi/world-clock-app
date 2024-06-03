@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.45/moment-timezone-with-data-1970-2030.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>World Clock</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>World Clock</h1>
+
+      <select name="" id="city">
+        <option value="">Select a city...</option>
+        <option value="current">My current location</option>
+        <option value="Europe/London">London</option>
+        <option value="Europe/Berlin">Berlin</option>
+        <option value="Nigeria/Abuja">Abuja</option>
+        <option value="America/New_York">New York</option>
+        <option value="Asia/Dubai">Dubai</option>
+      </select>
+
+      <div id="cities">
+        <div class="city" id="london">
+          <div>
+            <h2>London</h2>
+            <div class="date"></div>
+          </div>
+          <div class="time"></div>
+        </div>
+        <div class="city" id="lagos">
+          <div>
+            <h2>Lagos</h2>
+            <div class="date"></div>
+          </div>
+          <div class="time"></div>
+        </div>
+        <div class="city" id="los_angeles">
+          <div>
+            <h2>Los Angeles</h2>
+            <div class="date"></div>
+          </div>
+          <div class="time"></div>
+        </div>
+      </div>
+      <footer>
+        This project was coded by <a href="#">Glory Evi</a> is Open-sourced on
+        <a href="#">Github</a> and hosted on <a href="#">Netlify.</a>
+      </footer>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
